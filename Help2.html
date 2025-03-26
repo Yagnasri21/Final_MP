@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Help Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .button-group button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    .save-btn { background-color: #3498db; }
+    .submit-btn { background-color: #2ecc71; }
+    .reset-btn { background-color: #e74c3c; }
+
+    .button-group button:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>College Help Application Form</h2>
+
+  <form>
+    <label for="studentName">Student Name</label>
+    <input type="text" id="studentName" name="studentName" placeholder="Enter your name" required>
+
+    <label for="studentID">Student ID</label>
+    <input type="text" id="studentID" name="studentID" placeholder="Enter your ID" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="issue">Select Help Topic</label>
+    <select id="issue" name="issue" required>
+      <option value="">-- Select an Issue --</option>
+      <option value="fees">Fees Related</option>
+      <option value="exam">Exam Related</option>
+      <option value="admission">Admission Related</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="description">Describe Your Issue</label>
+    <textarea id="description" name="description" rows="5" placeholder="Describe your issue here..." required></textarea>
+
+    <div class="button-group">
+      <button type="button" class="save-btn">Save</button>
+      <button type="submit" class="submit-btn">Submit</button>
+      <button type="reset" class="reset-btn">Reset</button>
+    </div>
+  </form>
+
+</body>
+</html>
