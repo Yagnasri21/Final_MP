@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website with Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light cyan background */
+        }
+
+        header {
+            background: #00796b; /* Teal header */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #chatbot {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 350px; /* Increased width for better layout */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            background-color: #ffffff; /* White background */
+            display: none; /* Initially hidden */
+            overflow: hidden; /* Prevent overflow */
+        }
+
+        #chatbot-header {
+            background-color: #00796b; /* Teal header */
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px; /* Increased font size */
+            border-top-left-radius: 10px; /* Rounded corners on top */
+            border-top-right-radius: 10px; /* Rounded corners on top */
+        }
+
+        #chatbox {
+            height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #ffffff; /* White background for chat area */
+        }
+
+        .chat-input {
+            display: flex;
+            padding: 10px; /* Padding around input area */
+            background-color: #f1f8e9; /* Light green input area */
+        }
+
+        .chat-input input {
+            flex-grow: 1;
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners for input field */
+            border: 1px solid #00796b; /* Teal border */
+            margin-right: 10px; /* Space between input and button */
+        }
+
+        .chat-input button {
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners for button */
+            border: none; /* Remove border */
+            background-color: #00796b; /* Teal button color */
+            color: white; /* White text color for button */
+            cursor: pointer; /* Pointer cursor on hover */
+        }
+
+        .chat-input button:hover {
+            background-color: #004d40; /* Darker teal shade on hover */
+        }
+
+        .message {
+            margin-bottom: 10px; /* Space between messages */
+        }
+
+        .user-message {
+            text-align: right; /* Align user messages to the right */
+        }
+
+        .bot-message {
+            text-align: left; /* Align bot messages to the left */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our College</h1>
+</header>
+
+<div class="container">
+    <h2>About Our College</h2>
+    <p>We offer a variety of courses and programs to help you achieve your academic goals.</p>
+</div>
+
+<div id="chatbot">
+    <div id="chatbot-header">Rishi</div>
+    <div id="chatbox"></div>
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your message here...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<button onclick="toggleChatbot()">Chat with us!</button>
+
+<script>
+    function toggleChatbot() {
+        const chatbot = document.getElementById('chatbot');
+        chatbot.style.display = chatbot.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function sendMessage() {
+        const inputField = document.getElementById('userInput');
+        const userMessage = inputField.value;
+
+        if (userMessage.trim()) {
+            const chatbox = document.getElementById('chatbox');
+            
+            // Display user message
+            chatbox.innerHTML += `<div class="message user-message"><strong>User:</strong> ${userMessage}</div>`;
+            
+            // Simple response logic
+            let botResponse = "I'm sorry, I didn't understand that.";
+            
+            // Greeting responses
+            if (userMessage.toLowerCase().includes("hello") || userMessage.toLowerCase().includes("hi")) {
+                <marquee> WELCOME TO RISHI </marquee>
+                botResponse = "Hello! I'm Rishi. How can I assist you today?";
+                
+                // Admissions inquiries
+            } else if (userMessage.toLowerCase().includes("admissions")) {
+                botResponse = "For admissions, please visit our admissions page or contact our office for more details.";
+                
+                // Help requests
+            } else if (userMessage.toLowerCase().includes("help")) {
+                botResponse = "I'm here to help! Please let me know what you need assistance with.";
+                
+                // Placement inquiries
+            } else if (userMessage.toLowerCase().includes("placements")) {
+                botResponse = "Our college has a dedicated placement cell that assists students in securing internships and jobs.";
+                
+                // Courses inquiries
+            } else if (userMessage.toLowerCase().includes("courses")) {
+                botResponse = "We offer various courses including Computer Science, Information Technology, and Electrical Communication Engineering.";
+                
+                // Fees inquiries
+            } else if (userMessage.toLowerCase().includes("fees")) {
+                botResponse = "Please visit our fees section on the website for detailed information.";
+           }
+           
+           // Display bot response
+           chatbox.innerHTML += `<div class="message bot-message"><strong>Rishi:</strong> ${botResponse}</div>`;
+            
+           // Clear input field
+           inputField.value = '';
+           
+           // Scroll to the bottom of the chatbox
+           chatbox.scrollTop = chatbox.scrollHeight;
+       }
+   }
+</script>
+
+</body>
+</html>
