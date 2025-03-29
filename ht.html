@@ -114,7 +114,7 @@
     </div>
 </div>
 
-<button onclick="toggleChatbot()">Chat with us!</button>
+<button onclick="toggleChatbot()">Chat to know more!</button>
 
 <script>
     function toggleChatbot() {
@@ -136,13 +136,13 @@
             let botResponse = "I'm sorry, I didn't understand that.";
             
             // Greeting responses
-            if (userMessage.toLowerCase().includes("hello") || userMessage.toLowerCase().includes("hi")) {
+            if (userMessage.toLowerCase().includes("hello") || userMessage.toLowerCase().includes("hi") || userMessage.toLowerCase().includes("GoodMorning")) {
                 <marquee> WELCOME TO RISHI </marquee>
                 botResponse = "Hello! I'm Rishi. How can I assist you today?";
                 
                 // Admissions inquiries
             } else if (userMessage.toLowerCase().includes("admissions")) {
-                botResponse = "For admissions, please visit our admissions page or contact our office for more details.";
+                botResponse = "For admissions, please visit our <a href="@admissions"></a> page or contact our office for more details.";
                 
                 // Help requests
             } else if (userMessage.toLowerCase().includes("help")) {
