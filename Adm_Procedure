@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-Category Admissions – 2024-25</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; padding: 20px; background-color: #f9f9f9;">
+
+    <div style="max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0px 0px 10px #ccc;">
+        
+        <h2 style="text-align: center; color: #333;">B-CATEGORY ADMISSIONS – 2020-21</h2>
+        
+        <h3 style="color: #444;">Ritw’s Motto</h3>
+        <p>Ritw’s motto is to <strong>"Empower Women, Impact the World"</strong>, with a vision to mold students into professionals who will make a difference through their learning, expertise, character, and values.</p>
+        
+        <h3 style="color: #444;">Institute Vision</h3>
+        <p>Our institute strives to eliminate barriers that prevent young women from receiving a quality education. We aim to provide each student with a fulfilling career based on strong academic training and humanistic principles.</p>
+
+        <h3 style="color: #444;">Admission Procedure – B.Tech</h3>
+        <ul>
+            <li>70% of seats are allotted by the Convener, EAMCET.</li>
+            <li>The remaining 30% are filled by the Management of the college.</li>
+        </ul>
+
+        <h4 style="color: #555;">Local Candidate Criteria</h4>
+        <ul>
+            <li>Studied in a particular university area for four consecutive years before passing.</li>
+        </ul>
+
+        <h4 style="color: #555;">Non-Local Candidate Criteria</h4>
+        <ul>
+            <li>Residing outside the concerned university area.</li>
+            <li>Not studying consecutively for four years.</li>
+            <li>Less than seven years of stay.</li>
+            <li>If studied in another state but parents are domiciled in the concerned university area for at least 10 years.</li>
+        </ul>
+
+        <h3 style="color: #444;">Management Quota Seats</h3>
+        <ul>
+            <li>Admission notification is published in major state newspapers.</li>
+            <li>Application forms are sold and registered.</li>
+            <li>Candidates are admitted based on merit in qualifying examinations.</li>
+        </ul>
+
+        <h3 style="color: #444;">Lateral Entry Admissions</h3>
+        <ul>
+            <li>Diploma holders who qualify ECET entrance examinations are admitted directly into B.Tech 2nd year.</li>
+            <li>10% of total intake is admitted under this category.</li>
+            <li>100% of these seats are filled by the Convener based on ECET rank.</li>
+        </ul>
+
+        <h3 style="color: #444;">Fee Structure</h3>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+            <tr style="background: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 10px;">Year</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Convenor Fee</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Management Fee</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">2023-24</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">2024-25</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+            </tr>
+        </table>
+
+        <p style="text-align: center; margin-top: 20px; font-size: 12px; color: #666;">© All rights reserved. Designed by Web Plant IT Solutions Private Limited.</p>
+
+    </div>
+
+</body>
+</html>
