@@ -1,8 +1,7 @@
 {
     "placements": "Our college has a dedicated placement cell that assists students in securing internships and jobs.",
     "courses": "We offer Computer Science, Information Technology, and Electrical Communications Engineering.",
-    "fees": "Please visit our fees section on the website for detailed information.",
-    "admissions": "Please visit the admissions link to know more.",
+	"admission":"Please visit the admissions link to explore",
     "hello": "Hello! Welcome to RISHI. How can I assist you?",
     "hi": "Hi! Welcome to RISHI! How can I assist you?",
     "good morning": "A Warm Welcome To You! Have any queries? Feel free to reach out.",
@@ -14,9 +13,10 @@
     "what is the mission of rishi?": "To promote women technocrats capable enough to resolve the problems...",
     "who is the chairman of rishi?": "Prof. S JEELANI...",
     "who is the secretary of rishi?": "MS. RAJASREE...",
+    "who is the principal of rishi?": "Dr.KIRAN KUMAR...",
     "where is rishi college located?": "Near JNTUH metro station, KUKATPALLY, HYDERABAD.",
     "library hours": "Our library is open from 8 AM to 8 PM.",
     "sports facilities": "We have basketball courts, football grounds, and indoor sports facilities.",
     "hostel facilities": "We provide well-furnished hostels with 24/7 security.",
-    "internship opportunities": "Students get internship opportunities in top MNCs through our placement cell."
+    "internship opportunities": "Students get internship opportunities in top MNCs through our placement cell."
 }
