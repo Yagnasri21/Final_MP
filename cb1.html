@@ -37,7 +37,7 @@
         .container {
             padding: 20px;
             background-color: cyan;
-            max-width: 500px;
+            max-width: 1300px;
             margin: 20px auto;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -141,7 +141,7 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
     <main>
         <img src="https://tse2.mm.bing.net/th?id=OIP.bEwGeiUEHD5gvGsIQEC0rwHaDV&pid=Api&P=0&h=180"></img src>
 	    <img src="https://tse2.mm.bing.net/th?id=OIP.PHZnmAatSYkSyE17ur8OJQHaDV&pid=Api&P=0&h=180"></img src>
-	    <img src>="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheacademicinsights.com%2Frishi-ms-institute-of-engineering-and-technology-for-women%2F&psig=AOvVaw3ys5Z6iuwe_Q8Qr-Q6oJ1c&ust=1744305802735000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiklNW7y4wDFQAAAAAdAAAAABBA"</img src>
+	    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheacademicinsights.com%2Frishi-ms-institute-of-engineering-and-technology-for-women%2F&psig=AOvVaw3ys5Z6iuwe_Q8Qr-Q6oJ1c&ust=1744305802735000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiklNW7y4wDFQAAAAAdAAAAABBA"></img src>
     </main>
 
     <div class="chatbox">
@@ -166,7 +166,7 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
                 // Use relative file path for JSON file
                 const response = await fetch('./responses.json'); // Ensure this file is served from the same directory
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error(HTTP error! status: ${response.status});
                 }
                 const data = await response.json();
 
@@ -181,7 +181,7 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
         function displayMessage(sender, message) {
             const chatBody = document.getElementById("chat-body");
             const msgDiv = document.createElement("p");
-            msgDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
+            msgDiv.innerHTML = <strong>${sender}:</strong> ${message};
             chatBody.appendChild(msgDiv);
             chatBody.scrollTop = chatBody.scrollHeight; // Auto-scroll
         }
