@@ -90,6 +90,25 @@
             border: none;
             cursor: pointer;
         }
+
+        .image-container {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 40px; /* Adds spacing between images */
+    gap: 40px;
+}
+
+        .image-container img {
+    width: 500px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px; /* Smooth edges */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+}
+
+        .center-image {
+    transform: scale(1.1); /* Slightly enlarges the center image */
+}
         
         .watermark {
             position: absolute;
@@ -138,11 +157,12 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
     <img src="https://www.targetadmission.com/img/logos/229693358.png" alt="Rishi MS Institute Logo">
     </div>
 
-    <main>
-        <img src="https://tse2.mm.bing.net/th?id=OIP.bEwGeiUEHD5gvGsIQEC0rwHaDV&pid=Api&P=0&h=180"></img src>
-	    <img src="https://tse2.mm.bing.net/th?id=OIP.PHZnmAatSYkSyE17ur8OJQHaDV&pid=Api&P=0&h=180"></img src>
-	    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheacademicinsights.com%2Frishi-ms-institute-of-engineering-and-technology-for-women%2F&psig=AOvVaw3ys5Z6iuwe_Q8Qr-Q6oJ1c&ust=1744305802735000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiklNW7y4wDFQAAAAAdAAAAABBA"></img src>
-    </main>
+    
+    <div class="image-container">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.bEwGeiUEHD5gvGsIQEC0rwHaDV&pid=Api&P=0&h=180" alt="Left Image">
+        <img src="https://theacademicinsights.com/wp-content/uploads/2022/07/Rishi-MS-Institute.jpg" alt="Center Image" class="center-image">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.PHZnmAatSYkSyE17ur8OJQHaDV&pid=Api&P=0&h=180" alt="Right Image" >
+    </div>
 
     <div class="chatbox">
         <div class="chat-header">RISHI</div>
@@ -166,7 +186,7 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
                 // Use relative file path for JSON file
                 const response = await fetch('./responses.json'); // Ensure this file is served from the same directory
                 if (!response.ok) {
-                    throw new Error(HTTP error! status: ${response.status});
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
 
@@ -181,7 +201,7 @@ RISHI MS INSTITUTE OF TECHNOLOGY AND ENGINEERING FOR WOMEN </h1>
         function displayMessage(sender, message) {
             const chatBody = document.getElementById("chat-body");
             const msgDiv = document.createElement("p");
-            msgDiv.innerHTML = <strong>${sender}:</strong> ${message};
+            msgDiv.innerHTML = `<strong>${sender}:</strong> ${message}`;
             chatBody.appendChild(msgDiv);
             chatBody.scrollTop = chatBody.scrollHeight; // Auto-scroll
         }
