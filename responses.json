@@ -1,7 +1,8 @@
 {
     "placements": "Our college has a dedicated placement cell that assists students in securing internships and jobs.",
     "courses": "We offer Computer Science, Information Technology, and Electrical Communications Engineering.",
-	"admission":"Please visit the admissions link to explore",
+    "fees": "Please visit our fees section on the website for detailed information.",
+    "admissions": "Please visit the admissions link to know more.",
     "hello": "Hello! Welcome to RISHI. How can I assist you?",
     "hi": "Hi! Welcome to RISHI! How can I assist you?",
     "good morning": "A Warm Welcome To You! Have any queries? Feel free to reach out.",
@@ -13,10 +14,28 @@
     "what is the mission of rishi?": "To promote women technocrats capable enough to resolve the problems...",
     "who is the chairman of rishi?": "Prof. S JEELANI...",
     "who is the secretary of rishi?": "MS. RAJASREE...",
-    "who is the principal of rishi?": "Dr.KIRAN KUMAR...",
     "where is rishi college located?": "Near JNTUH metro station, KUKATPALLY, HYDERABAD.",
     "library hours": "Our library is open from 8 AM to 8 PM.",
     "sports facilities": "We have basketball courts, football grounds, and indoor sports facilities.",
-    "hostel facilities": "We provide well-furnished hostels with 24/7 security.",
-    "internship opportunities": "Students get internship opportunities in top MNCs through our placement cell."
+    "internship opportunities": "Students get internship opportunities in top MNCs through our placement cell.",
+    "how many clubs are there in rishi?": "There are 4 clubs in RISHI namely Cultural Club,Literature Club,Horticulture Club and Sports Club!",
+    "cultural club": "Cultural club organizes various cultural events other than college union activities such as dance and music competitions, K.E. talent hunt, speech competitions, art competitions etc.",
+    "sports club": "Club sports allow students to continue participating in sports they love, try new activities, and develop leadership skills by taking on administrative roles within the clubs.",
+	    "who is the chairman of rishi?": "Prof. S JEELANI..."
+"About the chairman of rishi?":"He holds doctorate in Pharmacognosy with specialization in Herbal medicine.He was a Former Scientist at NRSC ISRO.",
+    "who is the secretary of rishi?": "MS. RAJASREE...",
+"About the secretary of rishi?":"She is a Founder member of Rishi UBR Educational Institutions in Hyderabad. Promotes Womenâ€™s Empowerment.She was a Member in Bhartiya Vidhya Bhavanâ€™s School Committee Jubilee Hills Hyderabad for 4 years.",
+    "where is rishi college located?": "Near JNTUH metro station, KUKATPALLY, HYDERABAD.",
+"when was the rishi ms engineering college established?":"It was established in 2009",
+"What is the Vision and mission of rishi?":"Vision:
+To be a leading institute that empowers women to become skilled engineers and ethical leaders through quality education and innovative learning.
+Mission:
+To develop women technocrats who can solve real-world problems.
+To prepare self-reliant engineers for national and societal progress.
+To encourage creativity and innovation among young women.".
+"Who is the head of training and placements in rishi college?":"Lakshmi heads Training and Placement division at Rishi MS Engineering and Technology College for Women. ",
+    "library hours": "Our library is open from 9AM to 4:30PM.",
+    "sports facilities": "We have badminton court,  ground, and indoor sports facilities.",
+    "internship opportunities": "Students get internship opportunities in top MNCs through our placement cell."
+}
 }
