@@ -9,38 +9,32 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-
-
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
-    color: #2C3E50;
+    color: #fb1307;
 }
-
 h1 {
     font-size: 2rem;
     text-align: center;
     margin-top: 20px;
 }
-
 h2 {
     font-size: 1.8rem;
     margin-top: 15px;
-    color: #1F618D;
+    text-align: center;
+    color: #024e5d;
 }
-
 h3 {
     font-size: 1.5rem;
     margin-top: 10px;
-    color: #D35400;
+    color: #5e0afa;
 }
-
 /* Paragraph Styling */
 p {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.5rem;
+    line-height: 1.5;
     margin: 10px 20px;
 }
-
 /* Table Styling */
 table {
     width: 90%;
@@ -49,29 +43,61 @@ table {
     background: #ffffff;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
-
 th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ccc;
 }
-
 th {
     background: #1F618D;
     color: white;
     font-weight: bold;
 }
-
-/* Image Styling */
+team-container {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .member {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+    }
+    .member img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+    }
+    .member-info {
+      flex: 1;
+    }
+    .member-title {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+    .member-subtitle {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 40px 0;
+    }
+  /* Image Styling */
 img {
-    width: 100%;
-    max-width: 600px;
+    width: 800%;
+    max-width: 800px;
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 /* Footer Styling */
 footer {
     text-align: center;
@@ -92,18 +118,31 @@ footer {
 <h3>MISSION</h3>
 <p>To promote women technocrats capable enough to resolve the problems faced by the society using the knowledge imparted.To prepare self-reliant women engineering for technological growth of the nation and society by laying strong theoretical foundation accompanied by wide practical training.To equip the young women with creative thinking capabilities and empowering them towards innovation.</p>
 
-<h1>MANAGEMENT</h1> |
-<Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHZaLPa1s1UhbhoOtul98xc1UZi5vqQ3yWTBMxtlhRw0_rC7EU7wtMyGGur5zVyxeEaw&usqp=CAU">
-<h2>Prof. S JEELANI <br>
-CHAIRMAN</h2>
-<p>He holds doctorate in Pharmacognosy with specialization in Herbal medicine.He is the Director for Center for Virtual Learning, University of Hyderabad.He was a Former Regional head at UGC at Hyderabad and Bangalore.He was a Former Scientist at NRSC ISRO.He published more than 60 publications and 3 books exclusive research papers.He delivered more than 500 exclusive lectures in various Education Institutions and Universities.He has 30 years of teaching, research, academic and administration experience.He received many awards and one of them is “BEST CITIZEN OF INDIA”</p>
-
-
-<Img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxeL2eeLVQ1wqh1ynQmahg50XTnypqfuXrv8F8ND2bBgzzcOBL1ZyXUqTf7-jhdjgokEo&usqp=CAU ">
-<h2>MS. RAJASREE<br>
-SECRETARY</h2>
-<P>She is a Founder member of Rishi UBR Educational Institutions in Hyderabad. Promotes Women’s Empowerment.She was a Member in Bhartiya Vidhya Bhavan’s School Committee Jubilee Hills Hyderabad for 4 years.She is a Panel Member Member of STSNET to produce Films on Education, Art &Culture for MANA-TV (State Govt.) Received “VIKAS RATAN GOLD MEDAL AWARD” from International Integration Society, New Delhi.She is a Member (Vice –President) of Shirdi Sai Baba Temple Banjara Hills, Hyderabad. Supporting Orphanages in Hyderabad.</p>
-
+<h1>MANAGEMENT</h1> 
+|<div class="team-container">
+    <div class="member">
+      <img src="https://www.rishimsengg.ac.in/wp-content/uploads/2021/11/JEELANI.jpg " alt="Prof. S Jeelani" >
+      <div class="member-info">
+        <div class="member-title">Prof. S JEELANI</div>
+        <div class="member-subtitle">CHAIRMAN</div>
+        <p>
+          He holds doctorate in Pharmacognosy with specialization in Herbal medicine. He is the Director for Center for Virtual Learning, University of Hyderabad. He was a Former Regional head at UGC at Hyderabad and Bangalore. He was a Former Scientist at NRSC ISRO. He published more than 60 publications and 3 books exclusive research papers. He delivered more than 500 exclusive lectures in various Education Institutions and Universities. He has 30 years of teaching, research, academic and administration experience. He received many awards and one of them is “BEST CITIZEN OF INDIA”.
+        </p>
+      </div>
+    </div>
+  <hr>
+  
+    <div class="member">
+      <img src="https://www.rishimsengg.ac.in/wp-content/uploads/2021/11/madam-1.jpg " alt="Ms. Rajasree">
+      <div class="member-info">
+        <div class="member-title">MS. RAJASREE</div>
+        <div class="member-subtitle">SECRETARY</div>
+        <p>
+          She is a Founder member of Rishi UBR Educational Institutions in Hyderabad. Promotes Women’s Empowerment. She was a Member in Bhartiya Vidhya Bhavan’s School Committee Jubilee Hills Hyderabad for 4 years. She is a Panel Member of STSNET to produce Films on Education, Art & Culture for MANA-TV (State Govt.) Received “VIKAS RATAN GOLD MEDAL AWARD” from International Integration Society, New Delhi. She is a Member (Vice –President) of Shirdi Sai Baba Temple Banjara Hills, Hyderabad. Supporting Orphanages in Hyderabad.
+        </p>
+      </div>
+    </div>
+  </div>
 <h1>GOVERNING BODY</h1 >
 <table>
     <tr>
@@ -161,15 +200,10 @@ SECRETARY</h2>
 	  <td>10</td>
 	  <td> Mrs.Madhuri</td>
 	  <td> DirectorIBM, Hyderabad </td>
-
-		 <div class="watermark">© Rishi MS Engineering College</div>
-		<div class="watermark">
-<img src="https://www.targetadmission.com/img/logos/229693358.png" alt="Rishi MS Institute Logo">
-</div>
-
 	</tr>
 </table>
 © All rights reserved. Designed By Web Plant IT Solutions Private Limited.
+<iframe src="footer.html" target="_blank" rel="noopener noreferrer" width="100%" height="250vh"></iframe>
 
 </body>
   
