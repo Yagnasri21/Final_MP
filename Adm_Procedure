@@ -1,210 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>About us</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #fb1307;
-}
-h1 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 20px;
-}
-h2 {
-    font-size: 1.8rem;
-    margin-top: 15px;
-    text-align: center;
-    color: #024e5d;
-}
-h3 {
-    font-size: 1.5rem;
-    margin-top: 10px;
-    color: #5e0afa;
-}
-/* Paragraph Styling */
-p {
-    font-size: 1.5rem;
-    line-height: 1.5;
-    margin: 10px 20px;
-}
-/* Table Styling */
-table {
-    width: 90%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background: #ffffff;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-}
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-}
-th {
-    background: #1F618D;
-    color: white;
-    font-weight: bold;
-}
-team-container {
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .member {
-      display: flex;
-      align-items: flex-start;
-      gap: 30px;
-    }
-    .member img {
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 2px solid #ccc;
-    }
-    .member-info {
-      flex: 1;
-    }
-    .member-title {
-      font-weight: bold;
-      font-size: 1.2em;
-      margin-bottom: 8px;
-    }
-    .member-subtitle {
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 40px 0;
-    }
-  /* Image Styling */
-img {
-    width: 800%;
-    max-width: 800px;
-    display: block;
-    margin: 30px auto;
-    border-radius: 30px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-/* Footer Styling */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #2C3E50;
-    color: white;
-    font-size: 0.9rem;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-Category Admissions – 2025-26</title>
 </head>
-<body>
+<iframe srcdoc="https://github.com/Yagnasri21/Final_MP/blob/main/ADMISSIONS.HTML" height="300" width="400"></frame>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; padding: 20px; background-color: #f9f9f9;">
 
-  <h1>HISTORY </h1>
-  <p>Rishi MS Engineering College for Women traced out it’s foundation in 2009 as institute of higher learning located in 5.2 acres green sprawling Campus, opp. JNTU, Hyderabad, Telangana.</p>
-<h1>VISION & MISSION</h1>
-<h3>VISION</h3>
-<p>To be a center of excellence in producing women engineers and scientists who are professionally competent social leaders to face multi disciplinary global environment by imparting quality technical education, values and ethics through innovation methods of teaching and learning.</p>
-<h3>MISSION</h3>
-<p>To promote women technocrats capable enough to resolve the problems faced by the society using the knowledge imparted.To prepare self-reliant women engineering for technological growth of the nation and society by laying strong theoretical foundation accompanied by wide practical training.To equip the young women with creative thinking capabilities and empowering them towards innovation.</p>
+    <div style="max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0px 0px 10px #ccc;">
+        
+        <h2 style="text-align: center; color: #333;">B-CATEGORY ADMISSIONS – 2025-26</h2>
+        
+        <h3 style="color: #444;">Ritw’s Motto</h3>
+        <p>Ritw’s motto is to <strong>"Empower Women, Impact the World"</strong>, with a vision to mold students into professionals who will make a difference through their learning, expertise, character, and values.</p>
+        
+        <h3 style="color: #444;">Institute Vision</h3>
+        <p>Our institute strives to eliminate barriers that prevent young women from receiving a quality education. We aim to provide each student with a fulfilling career based on strong academic training and humanistic principles.</p>
 
-<h1>MANAGEMENT</h1> 
-|<div class="team-container">
-    <div class="member">
-      <img src="https://www.rishimsengg.ac.in/wp-content/uploads/2021/11/JEELANI.jpg " alt="Prof. S Jeelani" >
-      <div class="member-info">
-        <div class="member-title">Prof. S JEELANI</div>
-        <div class="member-subtitle">CHAIRMAN</div>
-        <p>
-          He holds doctorate in Pharmacognosy with specialization in Herbal medicine. He is the Director for Center for Virtual Learning, University of Hyderabad. He was a Former Regional head at UGC at Hyderabad and Bangalore. He was a Former Scientist at NRSC ISRO. He published more than 60 publications and 3 books exclusive research papers. He delivered more than 500 exclusive lectures in various Education Institutions and Universities. He has 30 years of teaching, research, academic and administration experience. He received many awards and one of them is “BEST CITIZEN OF INDIA”.
-        </p>
-      </div>
+        <h3 style="color: #444;">Admission Procedure – B.Tech</h3>
+        <ul>
+            <li>70% of seats are allotted by the Convener, EAMCET.</li>
+            <li>The remaining 30% are filled by the Management of the college.</li>
+        </ul>
+
+        <h4 style="color: #555;">Local Candidate Criteria</h4>
+        <ul>
+            <li>Studied in a particular university area for four consecutive years before passing.</li>
+        </ul>
+
+        <h4 style="color: #555;">Non-Local Candidate Criteria</h4>
+        <ul>
+            <li>Residing outside the concerned university area.</li>
+            <li>Not studying consecutively for four years.</li>
+            <li>Less than seven years of stay.</li>
+            <li>If studied in another state but parents are domiciled in the concerned university area for at least 10 years.</li>
+        </ul>
+
+        <h3 style="color: #444;">Management Quota Seats</h3>
+        <ul>
+            <li>Admission notification is published in major state newspapers.</li>
+            <li>Application forms are sold and registered.</li>
+            <li>Candidates are admitted based on merit in qualifying examinations.</li>
+        </ul>
+
+        <h3 style="color: #444;">Lateral Entry Admissions</h3>
+        <ul>
+            <li>Diploma holders who qualify ECET entrance examinations are admitted directly into B.Tech 2nd year.</li>
+            <li>10% of total intake is admitted under this category.</li>
+            <li>100% of these seats are filled by the Convener based on ECET rank.</li>
+        </ul>
+
+        <h3 style="color: #444;">Fee Structure</h3>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+            <tr style="background: #f2f2f2;">
+                <th style="border: 1px solid #ddd; padding: 10px;">Year</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Convenor Fee</th>
+                <th style="border: 1px solid #ddd; padding: 10px;">Management Fee</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">2023-24</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 10px;">2024-25</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+                <td style="border: 1px solid #ddd; padding: 10px;">₹60,000</td>
+
+             <div class="watermark">© Rishi MS Engineering College</div>
+                <div class="watermark">
+<img src="https://www.targetadmission.com/img/logos/229693358.png" alt="Rishi MS Institute Logo">
+</div>
+
+            </tr>
+        </table>
+        <b><em><a href="Admission.html" style="display: block; width: fit-content; margin: auto;">SUBMIT YOUR APPLICATION TO THE COLLEGE</em></b></a>
+        <p style="text-align: center; margin-top: 20px; font-size: 12px; color: #666;">© All rights reserved. Designed by Web Plant IT Solutions Private Limited.</p>
+
     </div>
-  <hr>
-  
-    <div class="member">
-      <img src="https://www.rishimsengg.ac.in/wp-content/uploads/2021/11/madam-1.jpg " alt="Ms. Rajasree">
-      <div class="member-info">
-        <div class="member-title">MS. RAJASREE</div>
-        <div class="member-subtitle">SECRETARY</div>
-        <p>
-          She is a Founder member of Rishi UBR Educational Institutions in Hyderabad. Promotes Women’s Empowerment. She was a Member in Bhartiya Vidhya Bhavan’s School Committee Jubilee Hills Hyderabad for 4 years. She is a Panel Member of STSNET to produce Films on Education, Art & Culture for MANA-TV (State Govt.) Received “VIKAS RATAN GOLD MEDAL AWARD” from International Integration Society, New Delhi. She is a Member (Vice –President) of Shirdi Sai Baba Temple Banjara Hills, Hyderabad. Supporting Orphanages in Hyderabad.
-        </p>
-      </div>
-    </div>
-  </div>
-<h1>GOVERNING BODY</h1 >
-<table>
-    <tr>
-        <th>SNo</th>
-        <th>Name</th>
-        <th>Designation</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Prof. S Jeelani</td>
-        <td>Chairman</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>DR. Goverdhan</td>
-        <td>Member (Rector, JNTUH)</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Ms. Rajasree</td>
-        <td>Secretary-correspondent</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Dr K Bhaskar</td>
-        <td>Member, Nominee</td>
-    </tr>
-    <tr>
-       <td> 5 </td>
-     <td> Prof.Ramana murthi	 </td>
-       <td>Former professor(CS/Maths dept.OU)</td> 
- </tr>
- <tr>
-
-   <td>6</td>
-   <td>Mrs.Manjee	</td>
-   <td>President(Rishi Society) </td>
-</tr>
-<tr>
-  <td> 7</td>
-  <td>Mrs.Madhavilatha</td>
-  <td>Director, Rishi </td>
-</tr>
-<tr>
-  <td>8 </td>
-  <td>Sri Venugopal Reddy</td>
-  <td>Regional Manager-Tech Mahindra</td>
-  </tr>
-  <tr>
-    <td>9 </td>
-    <td>Dr.V.Madhavi</td>
-    <td>Director, Aurora P.G. College</td>
-  </tr>
-	<tr>
-	  <td>10</td>
-	  <td> Mrs.Madhuri</td>
-	  <td> DirectorIBM, Hyderabad </td>
-	</tr>
-</table>
-© All rights reserved. Designed By Web Plant IT Solutions Private Limited.
-<iframe src="footer.html" target="_blank" rel="noopener noreferrer" width="100%" height="250vh"></iframe>
 
 </body>
-  
 </html>
