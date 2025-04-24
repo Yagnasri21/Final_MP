@@ -215,7 +215,7 @@
         function displayMessage(sender, message) {
             const chatBody = document.getElementById("chat-body");
             const msgDiv = document.createElement("p");
-            msgDiv.innerHTML = <strong>${sender}:</strong> ${message};
+            msgDiv.innerHTML = '<strong>${sender}:</strong> ${message}';
             chatBody.appendChild(msgDiv);
             chatBody.scrollTop = chatBody.scrollHeight;
         }
